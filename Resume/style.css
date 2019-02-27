@@ -5,44 +5,84 @@ body{
   color:#444;
   font-weight: 400;
 }
+#container{
+  width:100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
 /*banner name at top*/
-h1{
+#name{
   font-size: 3em;
   color: #33485e;
   text-transform:uppercase;
   text-align:center;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 /*my title*/
-strong{
+.title{
   font-size:1.5em;
   color:#33485e;
   text-transform:uppercase;
+  font-weight: 600px;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
 }
 /*section headings*/
-h2{
+.sectionheader{
   font-size:1.5em;
   color:#fff;
   background-color:#334853;
   text-transform:uppercase;
   font-weight:100;
+  margin: 20px 0px 10px 0px;
+  width: 70%;
+  min-width: 300px;
 }
 /*position titles*/
-h3{
+.jobtitle{
   font-weight:600;
   font-size:1.5em;
 }
 /*organization titles*/
-h4{
+.organization{
   font-weight:400;
-  font-size:1.5em;
+  font-size:1.25em;
 }
 /*dates*/
-h5{
+.date{
   font-weight:400;
   font size:1em;
   font-style:italic;
+  margin-top: 2px;
 }
 /*contact info, skills, education*/
-ul{
+.menu{
   font-size:1em;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+/*position descriptions*/
+.description{
+  margin: 10px 0px 10px 0px;
+}
+#degrees{
+  margin: 5px 0px 0px 0px;
+}
+#do{
+  margin: 5px 0px 0px 0px;
+}
+li{
+  display: inline;
+ list-style-type: none;
+}
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
