@@ -62,10 +62,11 @@ body{
 /*contact info, skills, education*/
 .menu{
   font-size:1em;
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   text-align: center;
 }
+
 /*position descriptions*/
 .description{
   margin: 10px 0px 10px 0px;
@@ -76,9 +77,11 @@ body{
 #do{
   margin: 5px 0px 0px 0px;
 }
-li{
+
+li.inline {
   display: inline;
- list-style-type: none;
+  list-style-type: none;
+  text-align: center;
 }
 .top{
   width: 60%;
