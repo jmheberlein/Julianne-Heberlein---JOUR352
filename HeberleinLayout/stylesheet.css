@@ -1,0 +1,36 @@
+#content{
+  margin: 0 auto;
+  width: 900px;
+}
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+.banner{
+  margin: 0 auto;
+  text-align: center;
+}
+.h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+}
+p{
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+figcaption{
+  font-family:Georgia, serif;
+  font-size: 13px;
+  font-style: italic;
+}
+blockquote{
+  font: 24px normal Georgia, sans serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #248F99;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
