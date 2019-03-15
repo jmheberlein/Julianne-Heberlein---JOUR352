@@ -1,0 +1,16 @@
+.jumbotron{
+  background-image: url(resume-banner.png);
+  background-size: cover;
+  height: 500px;
+}
+footer{
+  text-align: center;
+  background-color: #e6e9e7;
+}
+#profile{
+  text-align: center;
+  border-radius: 50%;
+}
+#profilepic{
+  border-radius: 50%
+}
