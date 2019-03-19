@@ -6,6 +6,8 @@
 footer{
   text-align: center;
   background-color: #e6e9e7;
+  color: #0C1824;
+  padding-top: 15px;
 }
 #profile{
   text-align: center;
@@ -13,4 +15,20 @@ footer{
 }
 #profilepic{
   border-radius: 50%
+}
+button{
+  margin: 0 auto;
+}
+body{
+  font-family: 'Baskerville Old Face', sans-serif;
+  font-size: 1em;
+  color:#0C1824;
+  font-weight: 400;
+  background-color: #D5E2ED;
+}
+a{
+  color: #0C1824;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: #0C1824;
 }
