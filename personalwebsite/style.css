@@ -1,7 +1,11 @@
-.jumbotron{
+/* .jumbotron{
   background-image: url(resume-banner.png);
   background-size: cover;
   height: 500px;
+} */
+#header{
+  width: 100%;
+  max-width: 1100px;
 }
 footer{
   text-align: center;
@@ -20,15 +24,14 @@ button{
   margin: 0 auto;
 }
 body{
-  font-family: 'Baskerville Old Face', sans-serif;
+  font-family: 'Nunita Sans', sans-serif;
   font-size: 1em;
   color:#0C1824;
   font-weight: 400;
-  background-color: #D5E2ED;
 }
 a{
   color: #0C1824;
 }
-.collapse navbar-collapse{
+.nav-link{
     color: #0C1824;
 }
