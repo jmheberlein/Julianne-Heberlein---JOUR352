@@ -1,9 +1,7 @@
-/* .jumbotron{
-  background-image: url(resume-banner.png);
-  background-size: cover;
-  height: 500px;
-} */
-#header{
+html{
+  font-size: 16px;
+  }
+.header{
   width: 100%;
   max-width: 1100px;
 }
@@ -23,8 +21,11 @@ footer{
 button{
   margin: 0 auto;
 }
+h3{
+  color: #558B66;
+}
 body{
-  font-family: 'Nunita Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1em;
   color:#0C1824;
   font-weight: 400;
@@ -32,6 +33,20 @@ body{
 a{
   color: #0C1824;
 }
-.nav-link{
+.nav-item{
     color: #0C1824;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+ p {
+   font-size: 18px;
+   color: #0C1824;
+ }
+ div {
+   width: 30%;
+ }
+}
+@media only screen and (max-width: 450px) {
+ p {
+   font-size: 12px;
+ }
 }
