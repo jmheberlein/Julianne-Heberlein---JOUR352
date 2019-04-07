@@ -2,10 +2,9 @@
   width:1000px;
   margin: 0 auto;
 }
-
 .headline{
   font-size: 3em;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   font-family: helvetica, arial, sans-serif;
 }
@@ -15,10 +14,26 @@
   text-align: center;
 }
 #h1{
-  
+font-size: 1.5em;
+font-weight: 700;
+font-family: Helvetica, Arial, sans-serif;
 }
 p{
   font-size: 1em;
   font-family: Georgia, times, serif;
   line-height: 180%;
+}
+figcaption{
+  font-size: 0.75em;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+figure{
+  text-align: center;
+}
+footer{
+  padding-top: 15px;
+  text-align: center;
+  background-color: #D3D3D3;
 }
