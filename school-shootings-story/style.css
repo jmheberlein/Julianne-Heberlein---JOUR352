@@ -26,10 +26,10 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
-#h1{
-font-size: 1.5em;
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 2em;
 font-weight: 700;
-font-family: Helvetica, Arial, sans-serif;
 }
 body{
   font-family: 'PT Serif', serif;
@@ -74,7 +74,7 @@ ul.navbar-nav {
   width: 15px;
   height: 15px;
   margin-top: 7.5px;
-  margin-right: 5px;
+  margin-right: 5px
 }
 .hero-image{
   width: 100%;
@@ -89,8 +89,6 @@ ul.navbar-nav {
 }
 .row{
   font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
-  font-weight: 700;
   padding-top: 20px;
   width: 100%;
 }
@@ -101,6 +99,8 @@ ul.navbar-nav {
   height: 100px;
   font-family:'Montserrat', sans-serif;
   color: white;
+  width: 100%;
+  margin: 0;
 }
 a{
   text-decoration: none;
@@ -113,4 +113,54 @@ a:hover{
 }
 a:visited{
   color: #999;
+}
+p{
+  font-family: 'PT Serif', serif;
+  color: black;
+  font-size: 1em;
+}
+.stack-image{
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+}
+.caption{
+   width:100%;
+   max-width:900px;
+   margin:0 auto;
+   padding-bottom:30px;
+   font-family: 'Montserrat', sans-serif;
+   color:#999;
+}
+.graphic-container h2{
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+}
+.graphic-container p{
+  font-family: 'Montserrat', sans-serif;
+}
+.graphic-container {
+   padding-top:30px;
+   padding-bottom:30px;
+   border-top:1px solid #cdcdcd;
+   border-bottom:1px solid #cdcdcd;
+   font-family: 'Montserrat', sans-serif;
+   margin:0 auto;
+}
+em{
+  margin: 0 auto;
+}
+/*Media Queries*/
+@media only screen and (min-width: 1000px) and (max-width: 1600px) {
+ body {
+   font-size: 16px;
+   color: #0C1824;
+ }
+}
+@media only screen and (max-width: 450px) {
+ p {
+   font-size: 12px;
+ }
 }
