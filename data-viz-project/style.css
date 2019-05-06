@@ -33,20 +33,25 @@
 }
 p{
   font-size: 1em;
-  font-family: Georgia, times, serif;
+  font-family: 'PT Serif', serif;
   line-height: 180%;
 }
-figcaption{
-  font-size: 0.75em;
-  font-family: Helvetica, Arial, sans-serif;
+.video{
+  margin: 0 auto;
+}
+.caption{
+  font-size: 1em;
+  font-family: 'PT Serif', serif;;
   text-align: center;
   font-style: italic;
+  margin: 0 auto;
 }
 figure{
   text-align: center;
 }
 footer{
-  padding-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   background-color: #D3D3D3;
 }
