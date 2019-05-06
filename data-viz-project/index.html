@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Mental Health Funding Matters</title>
+  <meta name="description" content="How counseling center funding affects students">
+  <meta name="author" content="Julianne Heberlein">
+
+<!--Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif:400,700" rel="stylesheet">
+
+
+<!-- Load c3.css -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+   <!-- Load our CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- Load d3.js and c3.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <a class="navbar-brand" href="#">Mental Health Funding Matters</a>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="#chapter1">Funding Sources</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#chapter1">Mental Health at UMD</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#chapter1">A National Crisis</a>
+         </li>
+       </ul>
+     </div>
+    </nav>
+    <!--End navbar-->
+
+    <center><img src="ccbuilding.jpg" class="hero-image"></center>
+<div id="container">
+<strong><p class= "headline">Mental Health Funding Matters</p></strong>
+<strong><p class="subheadline">One in 25 Americans are living with a serious mental illness. <br>What is UMD doing for the mental health of its students?</p></strong>
+<p class= "byline">By Julianne Heberlein</p>
+<strong><p class="intro">When sophomore English and government and politics major Reid Buskirk showed up to the University Health Center, he was expecting to see his psychiatrist for a refill of his manic depression medication. Instead, he was told that his appointment was cancelled and would have to wait two weeks to reschedule.
+“I felt panicked,” said Buskirk. “When faced with the possibility of not having my medication for a while, it was terrifying.”
+</p></strong>
+<div class="row">
+  <a name="chapter1"></a><h1>Funding Sources</h1>
+  <p>“I felt panicked,” said Buskirk. “When faced with the possibility of not having my medication for a while, it was terrifying.”</p><br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1zyjJTWsvTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p class="caption">Sophomore Reid Buskirk share his experience will mental illness as a college student.</p>
+  <p>The University of Maryland has various mental health resources on campus, including counseling and psychiatric services. While psychiatric services at the University Health Center are funded by an annual $82 student fee, the Counseling Center is fully funded by the state government.</p>
+  <p>The counseling service budget is $2,348,578. The Pepsi Corporation has awarded the center grants that cover approximately 10% of its budget, while the state covers the rest of it.</p>
+  <p>This budget covers the salaries of 17 psychologists, one care manager, two triage counselors, two seasonal psychologists and four full-time doctoral interns. Students have eight free individual counseling sessions per year, but many students wait over a month to been seen.</p>
+<h1>Mental Health at UMD</h1>
+<p>In February 2018, a student group called Scholars Promoting and Revitalizing Care launched the #30DaysTooLate campaign to draw attention to the excessive wait times at the Counseling Center. </p>
+<p>Senior Kristen Brockett serves as president of SPARC and has worked to advocate for mental health resources on campus. She thinks there can always be more mental health resources added, but the university needs to specifically focus on adding more staff psychologists.</p>
+<p>Junior psychology major Erin Hill serves as the administrator of the Help Center, an on-campus peer crisis hotline. She offers free peer counseling in-person and over the phone for students struggling with mental health.</p>
+<p>“I don’t think the student body’s needs are being fully met and I think there are so many factors that contribute to that,” Hill said. “I think by nature, a college campus itself will almost always fail to meet student needs in this way because of the limited resources available.”</p>
+<p>Counseling Center Associate Director Ted Pickett attributes the influx of students seeking counseling services to the success of destigmatizing mental illness among young adults. </p>
+<p>“We didn’t expect it to work so well that people would actually come in, but those efforts have actually been effective,” Pickett said.</p>
+<!-- Graphic container-->
+<!--visits graphic container-->
+<div class="graphic-container">
+ <h2>How many intake appointments does the Counseling Center conduct per academic year?</h2>
+ <p>During the last academic year, the Counseling Center had 2,606 students come in for an intake appointment, according the Counseling Center’s 2017-2018 annual report. This was a 16% increase from the prior three-year average. </p>
+ <div id="visitsbyyear"></div>
+ <em>Source: Data collected from the UMD Counseling Center's annual reports</em>
+</div>
+<!--end visits graphic container--><br>
+<!-- race graphic container-->
+<div class="graphic-container">
+ <h2>Who seeks counseling services at UMD?</h2>
+ <p>Additionally, the annual report data shows that 51% of students seeking counseling services are white, 20% are Asian, 16% are Black, 6% are Hispanic and 5% are multi-racial.</p>
+ <div id="racechart"></div>
+ <em>Source: UMD Counseling Center Annual Report 2017-2018</em> <br>
+</div>
+<!-- END race graphic container-->
+</div><br>
+<p>Although many students have voiced their desire for more staff psychologists, the Counseling Center has never been at full staff capacity, said Counseling Center Director Sharon Kirkland-Gordon.</p>
+<p>“I can’t remember a time we were fully staffed,” she said. “Some staff members have died unexpectedly in prior years or they leave for a different opportunity.”</p>
+<p>The center just hired three staff psychologists who will start seeing students in the fall, putting the Counseling Center at full staff capacity. Then, Kirkland-Gordon wants to reevaluate the ratio of staff psychologists to students to see how the student body’s needs are being met.</p><br>
+<h1>A National Crisis</h1>
+<p>Suicide is the second leading cause of death among college students, according to Active Minds, a nonprofit advocacy organization for mental health. With 39% of college students experiencing a serious mental health issue, they are more likely to talk about mental health than older generations. </p>
+<p>Even though mental illness is starting to become destigmatized, only 44% of adults and less than 20% of children and teenagers with diagnosed mental illnesses get the treatment they need. One in five adults will have a diagnosable mental illness. Half of the world population will experience a mental health condition in their lifetime. </p>
+    <iframe src="https://uploads.knightlab.com/storymapjs/97d93884d49d417b145d9448e65e4131/umd-campus-mental-health-resources/index.html" frameborder="0" width="100%" height="800"></iframe>
+  <!-- END graphic container-->
+    <br><br><br>
+</div>
+</div>
+</div>
+<footer>
+    <div id="footer">
+          Footer text <br>© Julianne Heberlein 2019
+  </div>
+</footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- c3 script-->
+    <script type="text/javascript">
+    //CHART 1
+<!--visits line chart-->
+var chart = c3.generate({
+ bindto: '#visitsbyyear',
+ data: {
+   x: 'x',
+   columns: [
+     ['x', 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+     ['Number of intake appointments', 1986, 2215, 1998, 1975, 2264, 2520, 2606]
+   ]
+ },
+ color: {
+   pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+ }
+});
+<!-- end visits line chart-->
+<!--Race Chart-->
+var chart3 = c3.generate({
+bindto: '#racechart',
+data: {
+  // iris data from R
+  columns: [
+    ['White', 51],
+    ['Asian', 20],
+    ['Black', 16],
+    ['Hispanic', 6],
+    ['Bicultural/Multiracial', 5],
+    ['Other', 2],
+  ],
+  type : 'pie',
+  onclick: function (d, i) { console.log("onclick", d, i); },
+  onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+  onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+},
+color: {
+  pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+}
+});
+<!-- end race chart-->
+ </script>
+
+</body>
+
+</html>
